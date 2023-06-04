@@ -15,12 +15,12 @@
 #       Произведение цифр = 6
 
 # ПЕРЕИМЕНОВАТЬ: число — number; цифра числа — digit (только не говорите, что в принципе не знаете разницу между цифрой и числом...)
-digit = int(input('Введите трехзначное число: '))
-digit1 = digit//100
-digit2 = digit%100//10
-digit3 = digit%100%10
-print(f'Сумма цифр = {digit1+digit2+digit3}\n'
-      f'Произведение цифр = {digit1*digit2*digit3}')
+# digit = int(input('Введите трехзначное число: '))
+# digit1 = digit//100
+# digit2 = digit%100//10
+# digit3 = digit%100%10
+# print(f'Сумма цифр = {digit1+digit2+digit3}\n'
+      # f'Произведение цифр = {digit1*digit2*digit3}')
 
 
 # Введите трехзначное число: 235
@@ -29,3 +29,11 @@ print(f'Сумма цифр = {digit1+digit2+digit3}\n'
 
 
 # ИТОГ: нужно лучше, доработать — 2/4
+
+number = int(input('Введите трехзначное число: '))
+digit1 = number//100
+digit2 = number%100//10
+digit3 = number%100%10
+print(f'Сумма цифр = {digit1+digit2+digit3}\n'
+      f'Произведение цифр = {digit1*digit2*digit3}')
+

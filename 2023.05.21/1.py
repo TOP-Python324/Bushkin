@@ -15,12 +15,12 @@
 #   Бушкин Владислав ,   50
 
 
-name = input('Введите имя: ')
-surname = input('Введите фамилию: ')
-year = input('Введите год рождения: ')
-age = 2023 - int(year)
+# name = input('Введите имя: ')
+# surname = input('Введите фамилию: ')
+# year = input('Введите год рождения: ')
+# age = 2023 - int(year)
 # ИСПРАВИТЬ: всё ещё имеется лишний пробел в выводе перед запятой
-print(surname, name, ',', age)
+# print(surname, name, ',', age)
 
 
 # Введите имя: John
@@ -30,3 +30,10 @@ print(surname, name, ',', age)
 
 
 # ИТОГ: хорошо — 2/3
+
+name = input('Введите имя: ')
+surname = input('Введите фамилию: ')
+year = input('Введите год рождения: ')
+age = 2023 - int(year)
+print(surname,name,',',age)
+
