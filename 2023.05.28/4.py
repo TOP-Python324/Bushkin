@@ -5,8 +5,8 @@ multiply_g = (int(chess_cage_one[1]) - \
               int(chess_cage_two[1]))%2
 multiply_v = (ranks.index(chess_cage_one[0]) - \
               ranks.index(chess_cage_two[0]))%2
-if multiply_g == 0 and multiply_v == 0 or \
-   multiply_g == 1 and multiply_v == 1:
+if not multiply_g and not multiply_v or \
+       multiply_g and multiply_v :
     print('да')
 else:
     print('нет')
