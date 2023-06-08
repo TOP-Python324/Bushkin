@@ -5,6 +5,7 @@ remains = numerator % denominator
 if remains == 0:
     print(f'{numerator} делится на {denominator} нацело\n'
           f'часное:{numerator // denominator}')
+# СДЕЛАТЬ: лучше написать код так, чтобы не прописывать генерацию очень похожего литерала второй раз и вообще не использовать блок else — подумайте, как это можно сделать
 else:
     print(f'{numerator} не делится на {denominator} нацело\n'
           f'неполное частное: {numerator // denominator}\n'
@@ -23,3 +24,4 @@ else:
 # остаток: 1
 
 
+# ИТОГ: хорошо, но можно лучше — 3/4
