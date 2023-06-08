@@ -1,13 +1,15 @@
 numerator = int(input('Введите целое число(делимое):'))
 denominator = int(input('Введите целое число(делитель):'))
-remains = numerator%denominator
-if remains == 0 :
+remains = numerator % denominator
+
+if remains == 0:
     print(f'{numerator} делится на {denominator} нацело\n'
-          f'часное:{numerator//denominator}')
+          f'часное:{numerator // denominator}')
 else:
     print(f'{numerator} не делится на {denominator} нацело\n'
-          f'неполное частное: {numerator//denominator}\n'
-          f'остаток: {remains}')        
+          f'неполное частное: {numerator // denominator}\n'
+          f'остаток: {remains}')
+
 
 # Введите целое число(делимое):16
 # Введите целое число(делитель):4
@@ -19,3 +21,5 @@ else:
 # 15 не делится на 2 нацело
 # неполное частное: 7
 # остаток: 1
+
+
