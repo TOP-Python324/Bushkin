@@ -28,12 +28,12 @@
 # Произведение цифр = 30
 
 
-# ИТОГ: нужно лучше, доработать — 2/4
-
 number = int(input('Введите трехзначное число: '))
-digit1 = number//100
-digit2 = number%100//10
-digit3 = number%100%10
+digit1 = number // 100
+digit2 = number % 100 // 10
+digit3 = number % 100 % 10
 print(f'Сумма цифр = {digit1+digit2+digit3}\n'
       f'Произведение цифр = {digit1*digit2*digit3}')
 
+
+# ИТОГ: отлично — 4/4
