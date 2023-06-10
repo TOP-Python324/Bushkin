@@ -1,9 +1,9 @@
-chess_cage_one = input('Введите первую клетку доски: ')
-chess_cage_two = input('Введите вторую клетку доски: ')
+chess_field_one = input('Введите первую клетку доски: ')
+chess_field_two = input('Введите вторую клетку доски: ')
 # ИСПОЛЬЗОВАТЬ: для записи длинных выражений на нескольких строчках кода лучше использовать круглые скобки, при этом соединяющие операторы должны находиться в начале соответствующих строчек
 if (
-       chess_cage_one[0] == chess_cage_two[0]
-    or chess_cage_one[1] == chess_cage_two[1]
+       chess_field_one[0] == chess_field_two[0]
+    or chess_field_one[1] == chess_field_two[1]
 ):
     print('да')
 else:
