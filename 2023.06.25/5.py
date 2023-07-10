@@ -29,4 +29,15 @@ def div_sum(a1,a2,*arg,numb=2,numb2=0):
     a=[a1,a2,*arg]
     return sum(a)/numb if numb2 == 0 else sum(a)/numb2 
     
+# БЕЗ КАВЫЧЕК НЕ ПОЛУЧИЛОСЬ
     
+# >>> div_round(12,5,digit=2)
+# div_round((12, 5, 'digit=2', 'digits=0')) ->
+# TypeError: div_round() got an unexpected keyword argument 'digit'
+# >>> div_round(12,5,digits=2)
+# div_round (12, 5, 'digits=2') -> 2.4
+# 2.4
+# >>> div_round(12,0)
+# div_round((12, 0, 'digits=0')) ->
+# ZeroDivisionError: division by zero
+# >>>
